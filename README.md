@@ -1,3 +1,3 @@
 # MammogramGist-CNN
 
-[Project code:](https://github.com/skywolf829/DeepMammo).
+[Project code](https://github.com/skywolf829/DeepMammo)
