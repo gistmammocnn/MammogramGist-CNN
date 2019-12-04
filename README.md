@@ -1,13 +1,25 @@
 # MammogramGist-CNN
 
 ## Installation
-All code is in Python 3.6.6.
+All code is in Python 3.6.6 64-bit.
 First clone the directory. From a terminal inside the directory, run:
-```pip install requirements.txt```
+
+```python -m pip install --upgrade pip```
+
+```pip install -r requirements.txt --user```
+
+Note that this uses tensorflow-gpu, which requires cuDNN, NVidia drivers, and CUDA toolkit. These are available at https://www.tensorflow.org/install/gpu. We used CUDA v10.0.
+
+If you do not have a NVidia card for using tensorflow-gpu, instead install tensorflow:
+
+```python -m pip install tensorflow --user```
+
 
 ## Running the code
 From within the /Code directory, run
+
 ```python End_to_end_model.py```
+
 This will run the current settings within the code, and print desired results.
 
 ## Settings
