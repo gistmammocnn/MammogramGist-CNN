@@ -1,16 +1,16 @@
 # MammogramGist-CNN
 
-[Installation]
+## Installation
 All code is in Python 3.6.6.
 First clone the directory. From a terminal inside the directory, run:
 '''pip install requirements.txt'''
 
-[Running the code]
+## Running the code
 From within the /Code directory, run
 '''python End_to_end_model.py'''
 This will run the current settings within the code, and print desired results.
 
-[Settings]
+## Settings
 Within End_to_end_model.py are a number of options to choose from. The following four choices are the core variables to change in the experiment.
 model_name: 
 Either "inceptionv4" or "vgg19". Chooses which deep network to generate features from.
