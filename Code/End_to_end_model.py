@@ -57,7 +57,7 @@ use_radiologist_gist = True
 
 use_rotations = False
 use_PCA = False
-show_charts = True
+show_charts = False
 print_statements_debug = False
 save_AUC_chart = False
 print_TPRandFPR = False
