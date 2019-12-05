@@ -6,7 +6,7 @@
 Keras == 2.2.4
 
 # Code\utility_functions.py: 14
-Pillow == 5.4.1
+Pillow == 6.2.0
 
 # Code\End_to_end_model.py: 32
 lightgbm == 2.2.3
