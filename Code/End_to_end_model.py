@@ -81,11 +81,11 @@ if(use_GPU):
 codes_path = './codes'
 labels_path = './labels'
 names_path = './names'
-radio_input_classify, radio_input_confidence = utility_functions.loadRadiologistData("../RadiologistData/radiologistInput.csv", 1, 0)
+radio_input_classify, radio_input_confidence = utility_functions.loadRadiologistData("../RadiologistData/RadiologistInput.csv", 1, 0)
 
 
-images_normal, labels_normal, names_normal = utility_functions.loadImagesFromDirTorch(("../Images/preprocessing"+str(preprocessingType)+"/normal",), (0,), model)
-images_cancer, labels_cancer, names_cancer = utility_functions.loadImagesFromDirTorch(("../Images/preprocessing"+str(preprocessingType)+"/cancer",), (1,), model)
+images_normal, labels_normal, names_normal = utility_functions.loadImagesFromDirTorch(("../Images/Preprocessing"+str(preprocessingType)+"/Normal",), (0,), model)
+images_cancer, labels_cancer, names_cancer = utility_functions.loadImagesFromDirTorch(("../Images/Preprocessing"+str(preprocessingType)+"/Cancer",), (1,), model)
 
 # If only using images that have radiologist response
 i = 0
