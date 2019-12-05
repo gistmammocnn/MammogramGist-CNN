@@ -81,3 +81,9 @@ Saves the bootstrapping results to a text file in a /Results folder and prints t
 
 do_TSNE:
 Creates a t-SNE chart from the feature vector using matplotlib. Either ```True``` or ```False```.
+
+## Troubleshooting
+
+Be sure to be using the most up-to-date pip available, and use Python 3.6.6 to directly replicate our setup. If another version of Python or Pip is used, package versions may not be the same, causing incompatibilities. 
+
+If any part of the installation of requirements.txt or requirementsGPU.txt fails, all installations will be undone. In the console, identify which package failed. If it was due to a version issue (i.e. "...couldn't find version ==2.0.0"), then simply open the requirements.txt and remove the "==x.y.z" from that package. Then run the installation command for requirements.txt again. This will default to downloading the most up-to-date version for your installation of python and pip.
