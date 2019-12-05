@@ -24,7 +24,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, auc, roc_curve, me
 import argparse
 import utility_functions
 import matplotlib
-matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import scipy
 import json
@@ -58,7 +57,7 @@ use_radiologist_gist = True
 
 use_rotations = False
 use_PCA = False
-show_charts = False
+show_charts = True
 print_statements_debug = False
 save_AUC_chart = False
 print_TPRandFPR = False
