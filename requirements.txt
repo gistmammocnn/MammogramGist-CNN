@@ -32,4 +32,4 @@ scipy == 1.3.3
 # Code\utility_functions.py: 11,590
 sklearn == 0.0
 
-tensorflow==2.0.0
+tensorflow==2.3.1
