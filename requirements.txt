@@ -16,7 +16,7 @@ matplotlib == 3.1.2
 
 # Code\End_to_end_model.py: 5
 # Code\utility_functions.py: 7
-numpy == 1.17.4
+numpy == 1.22.0
 
 # Code\utility_functions.py: 15
 opencv_python == 4.1.2.30
